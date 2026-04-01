@@ -28,7 +28,7 @@ resource "azurerm_resource_group" "rg" {
 
 
 resource "azurerm_storage_account" "storage" {
-  name                     = "prdcvs0401"
+  name                     = "prdcvs01042026"
   location                 = azurerm_resource_group.rg.location
   resource_group_name      = azurerm_resource_group.rg.name
   account_tier             = "Standard"
